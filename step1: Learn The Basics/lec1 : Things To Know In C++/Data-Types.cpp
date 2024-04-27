@@ -1,4 +1,8 @@
+#include<iostream>
+using namespace std;
+
 int dataTypes(string type) {
+
 	cin >> type;
 	if(type == "Integer" || type == "Float"){
 		return 4;
